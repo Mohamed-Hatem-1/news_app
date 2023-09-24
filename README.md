@@ -1,16 +1,5 @@
-# news_app
+# News App
+<div align="center">
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[https://github.com/Mohamed-Hatem-1/tunes_app/assets/123755796/d641f218-fb35-428a-86cb-fab2b92193de](https://github.com/Mohamed-Hatem-1/news_app/assets/123755796/1da6dc8c-f9b6-414b-a85c-7e5c4bb9a274)https://github.com/Mohamed-Hatem-1/news_app/assets/123755796/1da6dc8c-f9b6-414b-a85c-7e5c4bb9a274
+</div>
