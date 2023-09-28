@@ -1,5 +1,6 @@
 # News App
 <div align="center">
 
-https://github.com/Mohamed-Hatem-1/news_app/assets/123755796/8d327720-cc9c-4558-ba72-b12cc82c2bb3
+https://github.com/Mohamed-Hatem-1/news_app/assets/123755796/a1aaf6d9-7102-4abf-bf66-ffd88b67b022
+
 </div>
