@@ -39,13 +39,10 @@ class HomePage extends StatelessWidget {
                 height: 30,
               ),
             ),
-            NewsListViewBuilder(
-              category: 'general'
-            ),
+            NewsListViewBuilder(category: 'general'),
           ],
         ),
       ),
     );
   }
 }
-

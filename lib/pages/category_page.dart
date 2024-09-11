@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:news_app/widgets/NewsListViewBuilder.dart';
 
 class CategoryPage extends StatelessWidget {
-  const CategoryPage({super.key, required this.category});
   final String category;
+
+  const CategoryPage({super.key, required this.category});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,7 +15,7 @@ class CategoryPage extends StatelessWidget {
             category: category,
           ),
         ],
-      )
+      ),
     );
   }
 }

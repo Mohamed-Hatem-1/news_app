@@ -3,9 +3,9 @@ import 'package:news_app/models/article_model.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class NewsTile extends StatelessWidget {
-  const NewsTile({super.key, required this.articleModel});
-
   final ArticleModel articleModel;
+
+  const NewsTile({super.key, required this.articleModel});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,8 @@ class NewsTile extends StatelessWidget {
             borderRadius: BorderRadius.circular(6),
             // Cashed network image
             child: Image.network(
-              articleModel.image?? 'https://tse4.mm.bing.net/th?id=OIP.HxV79tFMPfBAIo0BBF-sOgHaEy&pid=Api&P=0&h=180',
+              articleModel.image ??
+                  'https://tse4.mm.bing.net/th?id=OIP.HxV79tFMPfBAIo0BBF-sOgHaEy&pid=Api&P=0&h=180',
               height: 200,
               width: double.infinity,
               fit: BoxFit.cover,
@@ -44,7 +45,7 @@ class NewsTile extends StatelessWidget {
             height: 8,
           ),
           Text(
-            articleModel.subTitle?? '',
+            articleModel.subTitle ?? '',
             maxLines: 2,
             style: const TextStyle(color: Colors.grey, fontSize: 14),
           )
@@ -52,5 +53,4 @@ class NewsTile extends StatelessWidget {
       ),
     );
   }
-
 }
